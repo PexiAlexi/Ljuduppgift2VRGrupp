@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638289040080000000
+  lastModified: 638289057420000000
   FileSizes:
   - Name: Desktop
     Value: 900
@@ -71,7 +71,7 @@ MonoBehaviour:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638289040080000000
+  cacheTime: 638289057420000000
   cacheVersion: 131605
 --- !u!114 &6458962523105279231
 MonoBehaviour:
@@ -88,7 +88,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638289040080000000
+  lastModified: 638289057420000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -135,7 +135,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638289040080000000
+  lastModified: 638289057420000000
   FileSizes:
   - Name: Desktop
     Value: 1899648
