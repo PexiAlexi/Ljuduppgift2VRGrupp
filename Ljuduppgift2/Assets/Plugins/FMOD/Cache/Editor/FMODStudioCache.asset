@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290109955590284
+  lastModified: 638290177916603216
   FileSizes:
   - Name: Desktop
-    Value: 948
+    Value: 988
   Exists: 1
 --- !u!114 &-6124411344795789511
 MonoBehaviour:
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290109955580134
+  lastModified: 638290177916588070
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -64,9 +64,36 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
+  MinDistance: 0
+  MaxDistance: 10000
+  Length: 5000
+--- !u!114 &-1850716445396410689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/dollsound
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/dollsound
+  Guid:
+    Data1: 59468930
+    Data2: 1203417272
+    Data3: 1740067476
+    Data4: 1145433475
+  Banks:
+  - {fileID: 4796990150039128137}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5000
+  Length: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87,12 +114,13 @@ MonoBehaviour:
   - {fileID: -4246832708450425270}
   - {fileID: 3142832912401327918}
   - {fileID: 6113255576790577894}
+  - {fileID: -1850716445396410689}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6124411344795789511}
   StringsBanks:
   - {fileID: -6213676089823727954}
-  cacheTime: 638290109955590284
+  cacheTime: 638290177916603216
   cacheVersion: 131607
 --- !u!114 &3142832912401327918
 MonoBehaviour:
@@ -136,10 +164,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290109955564887
+  lastModified: 638290177916546798
   FileSizes:
   - Name: Desktop
-    Value: 1029184
+    Value: 1066816
   Exists: 1
 --- !u!114 &6113255576790577894
 MonoBehaviour:
