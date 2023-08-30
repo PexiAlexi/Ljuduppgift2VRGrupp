@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638288235044864390
+  lastModified: 638290101419417042
   FileSizes:
   - Name: Desktop
-    Value: 838
+    Value: 1118
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -38,13 +38,72 @@ MonoBehaviour:
   - {fileID: 9155042670919632074}
   EditorEvents:
   - {fileID: 6496211769183791150}
+  - {fileID: 5058614233795703175}
+  - {fileID: 7533535342151354749}
+  - {fileID: 7294719284097647281}
+  - {fileID: 6902740850200737075}
+  - {fileID: 236860519442865513}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638288235044864390
+  cacheTime: 638290101419417042
   cacheVersion: 131605
+--- !u!114 &236860519442865513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Ambience/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Ambience/Wind
+  Guid:
+    Data1: 203870421
+    Data2: 1255178937
+    Data3: -590504517
+    Data4: 227347296
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27062
+--- !u!114 &5058614233795703175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Events/Earthquake
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Events/Earthquake
+  Guid:
+    Data1: 1257520937
+    Data2: 1158994815
+    Data3: 1276118938
+    Data4: -1591034879
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
 --- !u!114 &6458962523105279231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +119,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638288235044814411
+  lastModified: 638290101419397110
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -92,6 +151,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6902740850200737075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/Forest
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/Forest
+  Guid:
+    Data1: 267310289
+    Data2: 1136478965
+    Data3: -1654082663
+    Data4: 2018953750
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8500
+--- !u!114 &7294719284097647281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Ambience/Weird sounds+whispers
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Ambience/Weird sounds+whispers
+  Guid:
+    Data1: 780335007
+    Data2: 1309273217
+    Data3: 1594956444
+    Data4: 917023201
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 156432
+--- !u!114 &7533535342151354749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/Grass
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/Grass
+  Guid:
+    Data1: 739895926
+    Data2: 1128876544
+    Data3: -176345472
+    Data4: -962967960
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13152
 --- !u!114 &9155042670919632074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,8 +247,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638288235044764453
+  lastModified: 638290101419371540
   FileSizes:
   - Name: Desktop
-    Value: 1674
+    Value: 3041280
   Exists: 1
