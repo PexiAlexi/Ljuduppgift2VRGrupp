@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9131446545049096316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Alexi/Ambientsound/Riningphone
+  m_EditorClassIdentifier: 
+  Path: event:/Alexi/Ambientsound/Riningphone
+  Guid:
+    Data1: -1754828953
+    Data2: 1210633260
+    Data3: 448137093
+    Data4: -848166160
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14770
+--- !u!114 &-6371519687599055722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Alexi/dialogues/Come here
+  m_EditorClassIdentifier: 
+  Path: event:/Alexi/dialogues/Come here
+  Guid:
+    Data1: 726851171
+    Data2: 1213591737
+    Data3: -1769925703
+    Data4: 508714440
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1362
 --- !u!114 &-6253314017146931130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +96,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638289194260000000
+  lastModified: 638289947580000000
   FileSizes:
   - Name: Desktop
-    Value: 958
+    Value: 1064
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -67,12 +121,14 @@ MonoBehaviour:
   - {fileID: 7790316431614264933}
   - {fileID: -6253314017146931130}
   - {fileID: 4555247553251371205}
+  - {fileID: -6371519687599055722}
+  - {fileID: -9131446545049096316}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638289194260000000
+  cacheTime: 638289947580000000
   cacheVersion: 131605
 --- !u!114 &4555247553251371205
 MonoBehaviour:
@@ -116,7 +172,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638289194260000000
+  lastModified: 638289947580000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -163,8 +219,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638289194260000000
+  lastModified: 638289947580000000
   FileSizes:
   - Name: Desktop
-    Value: 1917824
+    Value: 2056768
   Exists: 1
