@@ -283,10 +283,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud
-    uppgift 2 skog/ljud uppgift 2 skog.fspro"
-  sourceBankPath: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud uppgift
-    2 skog/Build"
+  sourceProjectPath: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Fmodsoundsforgame.fspro
+  sourceBankPath: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -307,8 +305,10 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - HorrosoundsMazeVR
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
