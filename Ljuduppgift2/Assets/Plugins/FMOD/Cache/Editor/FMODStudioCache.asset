@@ -27,6 +27,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14770
+--- !u!114 &-8142069689799608559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Alexi/Music/Stressmusik
+  m_EditorClassIdentifier: 
+  Path: event:/Alexi/Music/Stressmusik
+  Guid:
+    Data1: 1357361213
+    Data2: 1223841350
+    Data3: 661681543
+    Data4: -481573357
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 78078
+--- !u!114 &-7256751198943182210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Alexi/Ambientsound/monstersound
+  m_EditorClassIdentifier: 
+  Path: event:/Alexi/Ambientsound/monstersound
+  Guid:
+    Data1: 682809814
+    Data2: 1218917297
+    Data3: -1531728990
+    Data4: 1836404116
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14590
 --- !u!114 &-6371519687599055722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +150,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638289947580000000
+  lastModified: 638290068240000000
   FileSizes:
   - Name: Desktop
-    Value: 1064
+    Value: 1210
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -123,13 +177,43 @@ MonoBehaviour:
   - {fileID: 4555247553251371205}
   - {fileID: -6371519687599055722}
   - {fileID: -9131446545049096316}
+  - {fileID: 2919129487501022041}
+  - {fileID: -7256751198943182210}
+  - {fileID: -8142069689799608559}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638289947580000000
+  cacheTime: 638290068240000000
   cacheVersion: 131605
+--- !u!114 &2919129487501022041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Alexi/dialogues/varnarf\xF6rmonstret"
+  m_EditorClassIdentifier: 
+  Path: "event:/Alexi/dialogues/varnarf\xF6rmonstret"
+  Guid:
+    Data1: -1241565568
+    Data2: 1223712659
+    Data3: 148537254
+    Data4: 10428528
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10957
 --- !u!114 &4555247553251371205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +256,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638289947580000000
+  lastModified: 638290068240000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -219,8 +303,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638289947580000000
+  lastModified: 638290068240000000
   FileSizes:
   - Name: Desktop
-    Value: 2056768
+    Value: 3019168
   Exists: 1
