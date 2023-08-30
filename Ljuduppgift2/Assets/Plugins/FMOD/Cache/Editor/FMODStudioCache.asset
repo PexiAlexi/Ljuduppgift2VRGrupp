@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-9131446545049096316
+--- !u!114 &-7203910467173004256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,104 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Alexi/Ambientsound/Riningphone
+  m_Name: event:/Carl/Mimetic Sounds/Footsteps (Hard Surface)
   m_EditorClassIdentifier: 
-  Path: event:/Alexi/Ambientsound/Riningphone
+  Path: event:/Carl/Mimetic Sounds/Footsteps (Hard Surface)
   Guid:
-    Data1: -1754828953
-    Data2: 1210633260
-    Data3: 448137093
-    Data4: -848166160
-  Banks:
-  - {fileID: 9155042670919632074}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 14770
---- !u!114 &-8142069689799608559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Alexi/Music/Stressmusik
-  m_EditorClassIdentifier: 
-  Path: event:/Alexi/Music/Stressmusik
-  Guid:
-    Data1: 1357361213
-    Data2: 1223841350
-    Data3: 661681543
-    Data4: -481573357
-  Banks:
-  - {fileID: 9155042670919632074}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 78078
---- !u!114 &-7256751198943182210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Alexi/Ambientsound/monstersound
-  m_EditorClassIdentifier: 
-  Path: event:/Alexi/Ambientsound/monstersound
-  Guid:
-    Data1: 682809814
-    Data2: 1218917297
-    Data3: -1531728990
-    Data4: 1836404116
+    Data1: 1764483092
+    Data2: 1319687317
+    Data3: 920504727
+    Data4: 1238123508
   Banks:
   - {fileID: 9155042670919632074}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 14590
---- !u!114 &-6371519687599055722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Alexi/dialogues/Come here
-  m_EditorClassIdentifier: 
-  Path: event:/Alexi/dialogues/Come here
-  Guid:
-    Data1: 726851171
-    Data2: 1213591737
-    Data3: -1769925703
-    Data4: 508714440
-  Banks:
-  - {fileID: 9155042670919632074}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1362
+  Length: 500
 --- !u!114 &-6253314017146931130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,11 +49,38 @@ MonoBehaviour:
   - {fileID: 9155042670919632074}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 117000
+--- !u!114 &-2935240437852682039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/HeavyDoorOpens
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/HeavyDoorOpens
+  Guid:
+    Data1: 393924508
+    Data2: 1180760657
+    Data3: -123240308
+    Data4: 1010895021
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
 --- !u!114 &-2590840232976611035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,10 +96,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290068240000000
+  lastModified: 638290069380000000
   FileSizes:
   - Name: Desktop
-    Value: 1210
+    Value: 1116
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -175,45 +121,15 @@ MonoBehaviour:
   - {fileID: 7790316431614264933}
   - {fileID: -6253314017146931130}
   - {fileID: 4555247553251371205}
-  - {fileID: -6371519687599055722}
-  - {fileID: -9131446545049096316}
-  - {fileID: 2919129487501022041}
-  - {fileID: -7256751198943182210}
-  - {fileID: -8142069689799608559}
+  - {fileID: -7203910467173004256}
+  - {fileID: -2935240437852682039}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290068240000000
+  cacheTime: 638290069380000000
   cacheVersion: 131605
---- !u!114 &2919129487501022041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Alexi/dialogues/varnarf\xF6rmonstret"
-  m_EditorClassIdentifier: 
-  Path: "event:/Alexi/dialogues/varnarf\xF6rmonstret"
-  Guid:
-    Data1: -1241565568
-    Data2: 1223712659
-    Data3: 148537254
-    Data4: 10428528
-  Banks:
-  - {fileID: 9155042670919632074}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 10957
 --- !u!114 &4555247553251371205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,7 +172,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290068240000000
+  lastModified: 638290069380000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -303,8 +219,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290068240000000
+  lastModified: 638290069360000000
   FileSizes:
   - Name: Desktop
-    Value: 3019168
+    Value: 2021952
   Exists: 1
