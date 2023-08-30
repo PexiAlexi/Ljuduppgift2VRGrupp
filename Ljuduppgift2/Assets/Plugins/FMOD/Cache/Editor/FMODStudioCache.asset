@@ -1,6 +1,53 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2590840232976611035
+--- !u!114 &-6296528660058258230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/anthony.bank
+  m_EditorClassIdentifier: 
+  Path: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud uppgift 2 skog/Build/Desktop/anthony.bank"
+  Name: anthony
+  StudioPath: bank:/anthony
+  lastModified: 638289438532141033
+  FileSizes:
+  - Name: Desktop
+    Value: 1007136
+  Exists: 1
+--- !u!114 &-4246832708450425270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/uggla
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/uggla
+  Guid:
+    Data1: 1731819248
+    Data2: 1142584096
+    Data3: -1609145977
+    Data4: -371024112
+  Banks:
+  - {fileID: -6296528660058258230}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
+--- !u!114 &-2027405259856583857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,13 +59,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
+  Path: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud uppgift 2 skog/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638288235044864390
+  lastModified: 638289438531887555
   FileSizes:
   - Name: Desktop
-    Value: 838
+    Value: 930
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -33,39 +80,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -2590840232976611035}
-  - {fileID: 6458962523105279231}
-  - {fileID: 9155042670919632074}
+  - {fileID: -2027405259856583857}
+  - {fileID: -6296528660058258230}
+  - {fileID: 8532529187328728054}
+  - {fileID: 8505748938854930766}
   EditorEvents:
-  - {fileID: 6496211769183791150}
+  - {fileID: -4246832708450425270}
+  - {fileID: 3142832912401327918}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 6458962523105279231}
+  - {fileID: 8505748938854930766}
   StringsBanks:
-  - {fileID: -2590840232976611035}
-  cacheTime: 638288235044864390
-  cacheVersion: 131605
---- !u!114 &6458962523105279231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638288235044814411
-  FileSizes:
-  - Name: Desktop
-    Value: 1012
-  Exists: 1
---- !u!114 &6496211769183791150
+  - {fileID: -2027405259856583857}
+  cacheTime: 638289438532141033
+  cacheVersion: 131607
+--- !u!114 &3142832912401327918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,7 +113,7 @@ MonoBehaviour:
     Data3: -27440732
     Data4: -959013790
   Banks:
-  - {fileID: 9155042670919632074}
+  - {fileID: 8532529187328728054}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -92,7 +121,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &9155042670919632074
+--- !u!114 &8505748938854930766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud uppgift 2 skog/Build/Desktop/Master.bank"
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638289438531872514
+  FileSizes:
+  - Name: Desktop
+    Value: 1012
+  Exists: 1
+--- !u!114 &8532529187328728054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,10 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/HorrosoundsMazeVR.bank
   m_EditorClassIdentifier: 
-  Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
+  Path: "../../../Users/GTSA - Infinity/Music/ljud f\xF6r skog/ljud uppgift 2 skog/Build/Desktop/HorrosoundsMazeVR.bank"
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638288235044764453
+  lastModified: 638289438531862502
   FileSizes:
   - Name: Desktop
     Value: 1674
