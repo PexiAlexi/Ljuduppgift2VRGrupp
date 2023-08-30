@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3c4ad1ad-2382-4ada-8682-0091d8214f5d}">
+		<property name="assetPath">
+			<value>Footstep (Hard ground).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>
+		</relationship>
+	</object>
+</objects>
