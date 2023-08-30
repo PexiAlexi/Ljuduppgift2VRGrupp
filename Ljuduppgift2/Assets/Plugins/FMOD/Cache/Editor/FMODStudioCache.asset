@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290165604382619
+  lastModified: 638290180971162749
   FileSizes:
   - Name: Desktop
     Value: 1118
@@ -48,7 +48,7 @@ MonoBehaviour:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290165604382619
+  cacheTime: 638290180971162749
   cacheVersion: 131605
 --- !u!114 &236860519442865513
 MonoBehaviour:
@@ -64,19 +64,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Martin/Ambience/Wind
   Guid:
-    Data1: 203870421
-    Data2: 1255178937
-    Data3: -590504517
-    Data4: 227347296
+    Data1: -1893581564
+    Data2: 1228165981
+    Data3: -1664981331
+    Data4: 453466863
   Banks:
   - {fileID: 9155042670919632074}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 10000
-  Length: 27062
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 22000
 --- !u!114 &5058614233795703175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290165604361964
+  lastModified: 638290180971152561
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -247,8 +247,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290165604336913
+  lastModified: 638290180971127301
   FileSizes:
   - Name: Desktop
-    Value: 3041280
+    Value: 3041024
   Exists: 1

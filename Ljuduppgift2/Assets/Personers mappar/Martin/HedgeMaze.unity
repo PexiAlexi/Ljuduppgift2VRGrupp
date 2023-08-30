@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
   m_FogMode: 2
   m_FogDensity: 0.1
@@ -1376,35 +1376,13 @@ GameObject:
   - component: {fileID: 300310235}
   - component: {fileID: 300310234}
   - component: {fileID: 300310233}
-  - component: {fileID: 300310232}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Wind1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &300310232
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300310231}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 24.135406, y: 5.479431, z: 42.88849}
-  m_Center: {x: 21.132065, y: -8.16, z: 15.2}
 --- !u!65 &300310233
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1441,22 +1419,22 @@ MonoBehaviour:
   CollisionTag: Player
   EventReference:
     Guid:
-      Data1: 203870421
-      Data2: 1255178937
-      Data3: -590504517
-      Data4: 227347296
+      Data1: -1893581564
+      Data2: 1228165981
+      Data3: -1664981331
+      Data4: 453466863
     Path: event:/Martin/Ambience/Wind
   Event: 
   PlayEvent: 3
   StopEvent: 4
   AllowFadeout: 1
-  TriggerOnce: 0
+  TriggerOnce: 1
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 10000
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!4 &300310235
 Transform:
   m_ObjectHideFlags: 0
@@ -6189,6 +6167,91 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1359420493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1366373429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1366373432}
+  - component: {fileID: 1366373431}
+  - component: {fileID: 1366373430}
+  m_Layer: 0
+  m_Name: Wind2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1366373430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366373429}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 24.000061, y: 5.357788, z: 42.604874}
+  m_Center: {x: 21.26886, y: -8.23, z: 14.884422}
+--- !u!114 &1366373431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366373429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: -1893581564
+      Data2: 1228165981
+      Data3: -1664981331
+      Data4: 453466863
+    Path: event:/Martin/Ambience/Wind
+  Event: 
+  PlayEvent: 3
+  StopEvent: 4
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!4 &1366373432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366373429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 290.85, y: 60, z: 253.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472677859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 183335005634974910, guid: 4ae2cdf1311059e4b99784add766bc79,
@@ -6224,8 +6287,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 10000
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1507866638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6812,7 +6875,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 11
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -11460,7 +11523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626300548}
   m_LocalRotation: {x: -0.70701194, y: 0.011581958, z: 0.011581958, w: 0.70701194}
-  m_LocalPosition: {x: 0.051, y: 0.58, z: 0.946}
+  m_LocalPosition: {x: 0.051, y: 0.566, z: 0.946}
   m_LocalScale: {x: 0.99572897, y: 0.20017172, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
