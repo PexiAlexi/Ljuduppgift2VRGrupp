@@ -13,9 +13,15 @@ public class Door : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void OpenDoor()
+    IEnumerator OpenDoorCouroutine()
     {
+        yield return new WaitForSeconds(14);
         animator.SetTrigger("OpenDoor");
         doorSound.SetActive(true);
+    }
+
+    public void OpenDoor()
+    {
+        StartCoroutine(OpenDoorCouroutine());
     }
 }
