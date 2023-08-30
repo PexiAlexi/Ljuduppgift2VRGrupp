@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EventFolder" id="{82ebd1fb-8316-4b84-bcad-6751dee6be04}">
+		<property name="name">
+			<value>Mimetic Sounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{71104c59-4d33-4aef-adfc-ad8b6fb89fa7}</destination>
+		</relationship>
+	</object>
+</objects>

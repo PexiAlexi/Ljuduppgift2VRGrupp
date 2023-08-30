@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 2.27
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -149,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367457}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -9.97, y: 0, z: 20.17}
+  m_LocalPosition: {x: -12.63, y: -1.58, z: 9.87}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -329,6 +329,12 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &73811517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5876422847098510308, guid: 4ae2cdf1311059e4b99784add766bc79,
+    type: 3}
+  m_PrefabInstance: {fileID: 308744104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &80945286
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,7 +594,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207898125}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: 5.2500005, y: 0, z: 20.17}
+  m_LocalPosition: {x: 11.18, y: -1.58, z: 14.45}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -647,6 +653,12 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!143 &214915079 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 8965647153830838437, guid: 4ae2cdf1311059e4b99784add766bc79,
+    type: 3}
+  m_PrefabInstance: {fileID: 308744104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &227658069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,7 +1157,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265152811}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: 5.2500005, y: 0, z: 0}
+  m_LocalPosition: {x: 16.87, y: -1.58, z: -5.08}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1438,6 +1450,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261726816223566870, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: footStepSoundsSource
+      value: 
+      objectReference: {fileID: 73811517}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 214915079}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: inputSound.Path
+      value: event:/Carl/Mimetic Sounds/Footsteps (Hard Surface)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: inputSound.Guid.Data1
+      value: 1764483092
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: inputSound.Guid.Data2
+      value: 1319687317
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: inputSound.Guid.Data3
+      value: 920504727
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709392384335395981, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: inputSound.Guid.Data4
+      value: 1238123508
+      objectReference: {fileID: 0}
+    - target: {fileID: 5876422847098510308, guid: 4ae2cdf1311059e4b99784add766bc79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7317098459776926979, guid: 4ae2cdf1311059e4b99784add766bc79,
         type: 3}
@@ -1884,6 +1936,8 @@ GameObject:
   - component: {fileID: 465736823}
   - component: {fileID: 465736822}
   - component: {fileID: 465736821}
+  - component: {fileID: 465736824}
+  - component: {fileID: 465736825}
   m_Layer: 0
   m_Name: hangardoor
   m_TagString: Untagged
@@ -1902,7 +1956,8 @@ Transform:
   m_LocalPosition: {x: -2.641, y: 1.0252, z: 13.09}
   m_LocalScale: {x: 0.3847, y: 2.0565746, z: 2.415251}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2010453258}
   m_Father: {fileID: 1836927260}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -1977,6 +2032,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465736819}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &465736824
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465736819}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9bf688b2f42f3cd4caab17afd7af3bcc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &465736825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465736819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99af404589c5cc40936a50298ee03f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorSound: {fileID: 2010453257}
 --- !u!1 &487612350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,7 +2947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862598719}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: 5.25, y: 0, z: 39.92}
+  m_LocalPosition: {x: 14.48, y: -1.58, z: 42.42}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3144,7 +3233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944343046}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -24.78, y: 0, z: 20.17}
+  m_LocalPosition: {x: -33.63, y: -1.58, z: 15.35}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3960,7 +4049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147409512}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -24.78, y: 0, z: 0}
+  m_LocalPosition: {x: -36.86, y: -1.58, z: -5.16}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5199,7 +5288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572407230}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -9.97, y: 0, z: 0}
+  m_LocalPosition: {x: -10.08, y: -1.58, z: -5.61}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5287,7 +5376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600219646}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -9.97, y: 0, z: 39.92}
+  m_LocalPosition: {x: -10.66, y: -1.58, z: 40.48}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5733,7 +5822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711629330}
   m_LocalRotation: {x: -0, y: 0.99059385, z: -0.1368354, w: 0}
-  m_LocalPosition: {x: -24.78, y: 0, z: 39.92}
+  m_LocalPosition: {x: -36.34, y: -1.58, z: 43.01}
   m_LocalScale: {x: 1.2523202, y: 1.25232, z: 1.2523199}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6106,6 +6195,69 @@ Halo:
     serializedVersion: 2
     rgba: 4289189887
   m_Size: 0.4
+--- !u!1 &2010453257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010453258}
+  - component: {fileID: 2010453259}
+  m_Layer: 0
+  m_Name: DoorSoundSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2010453258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010453257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 465736820}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010453259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010453257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 393924508
+      Data2: 1180760657
+      Data3: -123240308
+      Data4: 1010895021
+    Path: event:/Carl/Digetic Sounds/HeavyDoorOpens
+  Event: 
+  PlayEvent: 11
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2.174728
+  OverrideMaxDistance: 20.241596
 --- !u!1 &2032999856
 GameObject:
   m_ObjectHideFlags: 0
