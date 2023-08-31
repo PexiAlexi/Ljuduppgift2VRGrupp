@@ -9,26 +9,17 @@ public class FootstepsScript : MonoBehaviour
 
     private void Update()
     {
-        /*Debug.Log(player.velocity.z);
+       
 
         if (player.velocity.z > 0.1 || player.velocity.z < -0.1 || player.velocity.x > 0.1 || player.velocity.x < -0.1)
         {
             footStepSoundsSource.SetActive(true);
-            Debug.Log("Jag går faktiskt");
-        }
-        else if (player.velocity.z == 0)
-        {
-            footStepSoundsSource.SetActive(false);
-        }*/
-        
-        if (Input.acceleration.)
-        {
-            footStepSoundsSource.SetActive(true);
-            Debug.Log("Jag går faktiskt");
+            
         }
         else if (player.velocity.z == 0)
         {
             footStepSoundsSource.SetActive(false);
         }
-    }
+    }   
+      
 }
