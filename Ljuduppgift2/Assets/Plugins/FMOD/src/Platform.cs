@@ -186,7 +186,7 @@ namespace FMODUnity
         {
             foreach (BinaryFileInfo info in GetBinaryFileInfo(buildTarget, binaryType))
             {
-                yield return info.LatestLocation();
+                yield return string.Format("{0}/{1}", prefix, info.LatestLocation());
             }
         }
 
@@ -420,7 +420,7 @@ namespace FMODUnity
         {
             foreach (string path in GetObsoleteFiles())
             {
-                yield return $"{RuntimeUtils.PluginBasePath}/{path}";
+                yield return $"Assets/{RuntimeUtils.PluginBasePath}/{path}";
             }
         }
 
@@ -428,7 +428,7 @@ namespace FMODUnity
         // build target and logging state.
         internal virtual IEnumerable<string> GetBinaryFilePaths(BuildTarget buildTarget, BinaryType binaryType)
         {
-            return GetBinaryPaths(buildTarget, binaryType, RuntimeUtils.PluginBasePath);
+            return GetBinaryPaths(buildTarget, binaryType, Application.dataPath);
         }
 
         // Called by Settings.SelectBinaries to get:
@@ -437,7 +437,7 @@ namespace FMODUnity
         // * All binaries; any that weren't enabled in the previous step get disabled.
         internal virtual IEnumerable<string> GetBinaryAssetPaths(BuildTarget buildTarget, BinaryType binaryType)
         {
-            return GetBinaryPaths(buildTarget, binaryType, RuntimeUtils.PluginBasePath);
+            return GetBinaryPaths(buildTarget, binaryType, "Assets");
         }
 
         public enum FileLayout : uint

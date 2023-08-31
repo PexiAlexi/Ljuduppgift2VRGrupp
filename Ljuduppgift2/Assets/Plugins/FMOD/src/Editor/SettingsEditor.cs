@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.Build;
 using UnityEditor.IMGUI.Controls;
 using UnityEditorInternal;
 using System.IO;
@@ -1110,30 +1109,28 @@ namespace FMODUnity
 
                 DisplayCallbackHandler("Callback Handler", platform);
 
-                DisplayInt("Virtual Channel Count", platform, Platform.PropertyAccessors.VirtualChannelCount, 1, 2048);
-                DisplayInt("Real Channel Count", platform, Platform.PropertyAccessors.RealChannelCount, 1, 256);
-
-                DisplayCodecChannels("Codec Counts", platform);
-
-                DisplayDSPBufferSettings(platform);
-
-                string warning = null;
-
-                BuildTargetGroup buildTargetGroup =
-                BuildPipeline.GetBuildTargetGroup(EditorUserBuildSettings.activeBuildTarget);
-#if UNITY_2021_2_OR_NEWER
-                NamedBuildTarget namedBuildTarget = NamedBuildTarget.FromBuildTargetGroup(buildTargetGroup);
-                ScriptingImplementation scriptingBackend = PlayerSettings.GetScriptingBackend(namedBuildTarget);
-#else
-                ScriptingImplementation scriptingBackend = PlayerSettings.GetScriptingBackend(buildTargetGroup);
-#endif
-
-                if (scriptingBackend != ScriptingImplementation.IL2CPP)
+                if (!(platform is PlatformPlayInEditor))
                 {
-                    warning = "Only supported on the IL2CPP scripting backend";
-                }
+                    DisplayInt("Virtual Channel Count", platform, Platform.PropertyAccessors.VirtualChannelCount, 1, 2048);
+                    DisplayInt("Real Channel Count", platform, Platform.PropertyAccessors.RealChannelCount, 1, 256);
 
-                DisplayPlugins("Static Plugins", staticPluginsView, platform, ref expandStaticPlugins, warning);
+                    DisplayCodecChannels("Codec Counts", platform);
+
+                    DisplayDSPBufferSettings(platform);
+
+                    string warning = null;
+
+                    BuildTargetGroup buildTargetGroup =
+                        BuildPipeline.GetBuildTargetGroup(EditorUserBuildSettings.activeBuildTarget);
+                    ScriptingImplementation scriptingBackend = PlayerSettings.GetScriptingBackend(buildTargetGroup);
+
+                    if (scriptingBackend != ScriptingImplementation.IL2CPP)
+                    {
+                        warning = "Only supported on the IL2CPP scripting backend";
+                    }
+
+                    DisplayPlugins("Static Plugins", staticPluginsView, platform, ref expandStaticPlugins, warning);
+                }
 
                 DisplayPlugins("Dynamic Plugins", dynamicPluginsView, platform, ref expandDynamicPlugins);
 
