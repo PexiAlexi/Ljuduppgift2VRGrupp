@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{c3ed3e44-08ba-4803-a32e-bf09d3a1c2ad}">
+	<object class="AudioFile" id="{1dbe80f0-3797-4e41-9415-67c4f9a8b508}">
 		<property name="assetPath">
-			<value>baby sound.mp3</value>
+			<value>630010__trexlasso__wood-footsteps.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>96</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.9257142857142857</value>
+			<value>4.6343229166666671</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>

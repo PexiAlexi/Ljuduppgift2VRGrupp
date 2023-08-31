@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8397467015158659876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/uggla
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/uggla
+  Guid:
+    Data1: 1697206746
+    Data2: 1121262967
+    Data3: -163159414
+    Data4: 823799448
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
 --- !u!114 &-2590840232976611035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +42,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290180971162749
+  lastModified: 638290820701267240
   FileSizes:
   - Name: Desktop
-    Value: 1118
+    Value: 1228
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -39,16 +66,18 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 6496211769183791150}
   - {fileID: 5058614233795703175}
-  - {fileID: 7533535342151354749}
   - {fileID: 7294719284097647281}
-  - {fileID: 6902740850200737075}
   - {fileID: 236860519442865513}
+  - {fileID: -8397467015158659876}
+  - {fileID: 8720623954968382996}
+  - {fileID: 3173009082315869075}
+  - {fileID: 5293373341725283422}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290180971162749
+  cacheTime: 638290820701267240
   cacheVersion: 131605
 --- !u!114 &236860519442865513
 MonoBehaviour:
@@ -77,6 +106,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 22000
+--- !u!114 &3173009082315869075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/FootstepsWood
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/FootstepsWood
+  Guid:
+    Data1: 699054384
+    Data2: 1250023812
+    Data3: 661744554
+    Data4: -1923998258
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4634
 --- !u!114 &5058614233795703175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +160,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12000
+--- !u!114 &5293373341725283422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/FootstepsGrass
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/FootstepsGrass
+  Guid:
+    Data1: -4425634
+    Data2: 1342114220
+    Data3: -948509778
+    Data4: 1965618004
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
 --- !u!114 &6458962523105279231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +202,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290180971152561
+  lastModified: 638290820701247292
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -151,33 +234,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6902740850200737075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Martin/Footsteps/Forest
-  m_EditorClassIdentifier: 
-  Path: event:/Martin/Footsteps/Forest
-  Guid:
-    Data1: 267310289
-    Data2: 1136478965
-    Data3: -1654082663
-    Data4: 2018953750
-  Banks:
-  - {fileID: 9155042670919632074}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8500
 --- !u!114 &7294719284097647281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,7 +261,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 156432
---- !u!114 &7533535342151354749
+--- !u!114 &8720623954968382996
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,23 +271,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Martin/Footsteps/Grass
+  m_Name: event:/Martin/Ambience/Boom
   m_EditorClassIdentifier: 
-  Path: event:/Martin/Footsteps/Grass
+  Path: event:/Martin/Ambience/Boom
   Guid:
-    Data1: 739895926
-    Data2: 1128876544
-    Data3: -176345472
-    Data4: -962967960
+    Data1: 984610785
+    Data2: 1094108270
+    Data3: -541865335
+    Data4: 1588444923
   Banks:
   - {fileID: 9155042670919632074}
-  IsStream: 1
-  Is3D: 1
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 13152
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9000
 --- !u!114 &9155042670919632074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,8 +303,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290180971127301
+  lastModified: 638290820701217171
   FileSizes:
   - Name: Desktop
-    Value: 3041024
+    Value: 3878624
   Exists: 1
