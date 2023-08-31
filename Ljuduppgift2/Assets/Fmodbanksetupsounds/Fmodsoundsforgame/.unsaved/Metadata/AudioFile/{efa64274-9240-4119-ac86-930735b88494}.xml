@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{efa64274-9240-4119-ac86-930735b88494}">
+		<property name="assetPath">
+			<value>monster.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.0786666666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>
+		</relationship>
+	</object>
+</objects>
