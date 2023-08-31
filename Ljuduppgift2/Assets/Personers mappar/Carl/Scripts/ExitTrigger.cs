@@ -10,7 +10,7 @@ public class ExitTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        spookyStressSound.SetActive(false);
+        Destroy(spookyStressSound);
         SceneManager.LoadScene(sceneName);
     }
 }
