@@ -135,6 +135,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &-7072368814136157335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Events/MetalDoor
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Events/MetalDoor
+  Guid:
+    Data1: -1809578184
+    Data2: 1156561520
+    Data3: 1639998892
+    Data4: 1365215544
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7656
 --- !u!114 &-6253314017146931130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +189,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 117000
+--- !u!114 &-6137758073428953006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/FootstepsGrass
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/FootstepsGrass
+  Guid:
+    Data1: -4425634
+    Data2: 1342114220
+    Data3: -948509778
+    Data4: 1965618004
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
+--- !u!114 &-6088755818718144858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/crawlersound
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/crawlersound
+  Guid:
+    Data1: -801885694
+    Data2: 1170214132
+    Data3: 398933171
+    Data4: 1963792638
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1078
 --- !u!114 &-3436322262865765748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,11 +339,92 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290914180000000
+  lastModified: 638290945000000000
   FileSizes:
   - Name: Desktop
-    Value: 1696
+    Value: 2220
   Exists: 1
+--- !u!114 &-1079494234405119101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Events/Earthquake
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Events/Earthquake
+  Guid:
+    Data1: 1257520937
+    Data2: 1158994815
+    Data3: 1276118938
+    Data4: -1591034879
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
+--- !u!114 &-1041773007350176402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Footsteps/FootstepsWood
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Footsteps/FootstepsWood
+  Guid:
+    Data1: 699054384
+    Data2: 1250023812
+    Data3: 661744554
+    Data4: -1923998258
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4634
+--- !u!114 &-514857464426549076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/uggla
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/uggla
+  Guid:
+    Data1: 1697206746
+    Data2: 1121262967
+    Data3: -163159414
+    Data4: 823799448
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 10000
+  Length: 5000
 --- !u!114 &-403415822420960191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,13 +487,50 @@ MonoBehaviour:
   - {fileID: -2711340482732875498}
   - {fileID: -3436322262865765748}
   - {fileID: -9104379136581422662}
+  - {fileID: -6088755818718144858}
+  - {fileID: 4304554945821497327}
+  - {fileID: -1079494234405119101}
+  - {fileID: -1041773007350176402}
+  - {fileID: -7072368814136157335}
+  - {fileID: -6137758073428953006}
+  - {fileID: 8816721135048996010}
+  - {fileID: 7649722737452248306}
+  - {fileID: -514857464426549076}
+  - {fileID: 727914977788054698}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290914180000000
+  cacheTime: 638290945000000000
   cacheVersion: 131605
+--- !u!114 &727914977788054698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Ambience/Boom
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Ambience/Boom
+  Guid:
+    Data1: 984610785
+    Data2: 1094108270
+    Data3: -541865335
+    Data4: 1588444923
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9000
 --- !u!114 &733905778943665411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +639,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14770
+--- !u!114 &4304554945821497327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Ambience/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Ambience/Wind
+  Guid:
+    Data1: -1893581564
+    Data2: 1228165981
+    Data3: -1664981331
+    Data4: 453466863
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 22000
 --- !u!114 &4449949527786007012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,7 +735,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290914180000000
+  lastModified: 638290945000000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -541,6 +767,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6237
+--- !u!114 &7649722737452248306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Ambience/Weird sounds+whispers
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Ambience/Weird sounds+whispers
+  Guid:
+    Data1: 780335007
+    Data2: 1309273217
+    Data3: 1594956444
+    Data4: 917023201
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 156432
 --- !u!114 &7790316431614264933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +821,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 55000
+--- !u!114 &8816721135048996010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Anthony/dollsound
+  m_EditorClassIdentifier: 
+  Path: event:/Anthony/dollsound
+  Guid:
+    Data1: 59468930
+    Data2: 1203417272
+    Data3: 1740067476
+    Data4: 1145433475
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
 --- !u!114 &9155042670919632074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,8 +863,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290914180000000
+  lastModified: 638290945000000000
   FileSizes:
   - Name: Desktop
-    Value: 3421120
+    Value: 7421184
   Exists: 1

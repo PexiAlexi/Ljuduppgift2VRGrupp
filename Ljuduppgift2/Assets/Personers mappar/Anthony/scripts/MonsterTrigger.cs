@@ -20,5 +20,7 @@ public class MonsterTrigger : MonoBehaviour
         yield return new WaitForSeconds(delayBeforeDisappear); // Vänta i x sekunder
 
         monster.SetActive(false); // Dölj monstret efter väntetiden
+
+        Destroy(this.gameObject);
     }
 }
