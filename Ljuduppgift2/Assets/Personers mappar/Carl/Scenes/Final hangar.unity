@@ -3700,7 +3700,7 @@ MonoBehaviour:
   Event: 
   PlayEvent: 11
   StopEvent: 0
-  AllowFadeout: 1
+  AllowFadeout: 0
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
