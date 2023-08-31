@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{4f5ef2df-ce12-4f01-a59b-796b658918e2}">
+		<property name="assetPath">
+			<value>atmosphere-dark-3-16803.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>156.43199999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{3b90538b-5ec5-4c47-8c99-ba8f3ed573f2}">
+		<property name="assetPath">
+			<value>foley-far-distant-low-drum-beat-162368.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.7919999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>
+		</relationship>
+	</object>
+</objects>
