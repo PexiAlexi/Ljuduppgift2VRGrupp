@@ -95,6 +95,9 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playCount">
+			<value>5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ca882c76-3db8-4d77-95e9-410b23dc47f0}</destination>
 		</relationship>

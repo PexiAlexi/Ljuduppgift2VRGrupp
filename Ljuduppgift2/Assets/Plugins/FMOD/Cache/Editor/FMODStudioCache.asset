@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8008127117997465727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/MetalDropSound4
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/MetalDropSound4
+  Guid:
+    Data1: -514119690
+    Data2: 1265521510
+    Data3: 870273209
+    Data4: -1956852368
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4500
+--- !u!114 &-7989807370915886844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/MetalDropSound3
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/MetalDropSound3
+  Guid:
+    Data1: -1975994365
+    Data2: 1252412783
+    Data3: 1381334404
+    Data4: 1598336743
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
 --- !u!114 &-7861192556909430983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +135,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 117000
+--- !u!114 &-3436322262865765748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/Wisper2
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/Wisper2
+  Guid:
+    Data1: -1431512693
+    Data2: 1191000361
+    Data3: -568237408
+    Data4: -2088552993
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2647
 --- !u!114 &-2935240437852682039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +189,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6000
+--- !u!114 &-2711340482732875498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/Wisper1
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/Wisper1
+  Guid:
+    Data1: 1981305967
+    Data2: 1252782697
+    Data3: 1311728034
+    Data4: -1204417079
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3227
 --- !u!114 &-2590840232976611035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,10 +231,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290134640000000
+  lastModified: 638290826000000000
   FileSizes:
   - Name: Desktop
-    Value: 1368
+    Value: 1648
   Exists: 1
 --- !u!114 &-403415822420960191
 MonoBehaviour:
@@ -182,12 +290,19 @@ MonoBehaviour:
   - {fileID: 3469119015625125068}
   - {fileID: -7861192556909430983}
   - {fileID: 733905778943665411}
+  - {fileID: -7989807370915886844}
+  - {fileID: 1334953454879596881}
+  - {fileID: 4449949527786007012}
+  - {fileID: 7220668564221364478}
+  - {fileID: -8008127117997465727}
+  - {fileID: -2711340482732875498}
+  - {fileID: -3436322262865765748}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290134640000000
+  cacheTime: 638290826000000000
   cacheVersion: 131605
 --- !u!114 &733905778943665411
 MonoBehaviour:
@@ -216,6 +331,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14590
+--- !u!114 &1334953454879596881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/MetalDropSound5
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/MetalDropSound5
+  Guid:
+    Data1: 1377041569
+    Data2: 1076373276
+    Data3: -1135389026
+    Data4: 1417432685
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &3167342693196815291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,11 +407,38 @@ MonoBehaviour:
   - {fileID: 9155042670919632074}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 14770
+--- !u!114 &4449949527786007012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/MetalDropSound2
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/MetalDropSound2
+  Guid:
+    Data1: 2106294439
+    Data2: 1165982776
+    Data3: -705571686
+    Data4: 1389929827
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3970
 --- !u!114 &4555247553251371205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,11 +481,38 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290134640000000
+  lastModified: 638290826000000000
   FileSizes:
   - Name: Desktop
     Value: 1012
   Exists: 1
+--- !u!114 &7220668564221364478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Carl/Digetic Sounds/MetalDropSound1
+  m_EditorClassIdentifier: 
+  Path: event:/Carl/Digetic Sounds/MetalDropSound1
+  Guid:
+    Data1: -371460153
+    Data2: 1332468960
+    Data3: 1632075917
+    Data4: 1757283767
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6237
 --- !u!114 &7790316431614264933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,8 +555,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290134640000000
+  lastModified: 638290826000000000
   FileSizes:
   - Name: Desktop
-    Value: 3123264
+    Value: 3384896
   Exists: 1

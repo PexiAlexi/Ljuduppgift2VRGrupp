@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{072af8e5-1088-4351-862f-f71a3b7586f7}">
+		<property name="assetPath">
+			<value>Wisper2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.6470748299319729</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{52cf734a-3020-4c80-b899-e08a100fcf9f}</destination>
+		</relationship>
+	</object>
+</objects>

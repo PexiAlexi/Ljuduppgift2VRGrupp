@@ -7,6 +7,7 @@ public class FootstepsHardSurface : MonoBehaviour
     [SerializeField] private CharacterController player;
     [SerializeField] private GameObject footStepSoundsSource;
 
+
     private void Update()
     {
         Debug.Log(player.velocity.z);
