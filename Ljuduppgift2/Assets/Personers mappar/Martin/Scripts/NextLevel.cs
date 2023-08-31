@@ -7,8 +7,19 @@ public class NextLevel : MonoBehaviour
 {
     [SerializeField] public string scene;
 
+    public Animator loadScreen;
+    public bool loadLevel = false;
+
     private void OnTriggerEnter(Collider other)
+
     {
-       SceneManager.LoadScene(scene);
+       StartCoroutine(loadSceneWait());
+      
+    }
+    IEnumerator loadSceneWait()
+    {
+        loadScreen.SetTrigger("Start");
+        yield return new WaitForSeconds(7);
+        SceneManager.LoadScene(scene);
     }
 }

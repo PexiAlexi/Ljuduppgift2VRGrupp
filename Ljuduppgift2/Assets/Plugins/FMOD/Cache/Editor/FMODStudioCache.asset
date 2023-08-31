@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8789053618043536971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Martin/Events/MetalDoor
+  m_EditorClassIdentifier: 
+  Path: event:/Martin/Events/MetalDoor
+  Guid:
+    Data1: -1809578184
+    Data2: 1156561520
+    Data3: 1639998892
+    Data4: 1365215544
+  Banks:
+  - {fileID: 9155042670919632074}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7656
 --- !u!114 &-8397467015158659876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,7 +53,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 10000
-  Length: 3200
+  Length: 5000
 --- !u!114 &-6870553254607730217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +123,10 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638290868754723432
+  lastModified: 638290936919301278
   FileSizes:
   - Name: Desktop
-    Value: 1322
+    Value: 1374
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -128,12 +155,13 @@ MonoBehaviour:
   - {fileID: 5293373341725283422}
   - {fileID: -6870553254607730217}
   - {fileID: -5768544512943579229}
+  - {fileID: -8789053618043536971}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6458962523105279231}
   StringsBanks:
   - {fileID: -2590840232976611035}
-  cacheTime: 638290868754723432
+  cacheTime: 638290936919301278
   cacheVersion: 131605
 --- !u!114 &236860519442865513
 MonoBehaviour:
@@ -258,7 +286,7 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638290868754723432
+  lastModified: 638290936919291333
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -359,8 +387,8 @@ MonoBehaviour:
   Path: Assets/Fmodbanksetupsounds/Fmodsoundsforgame/Build/Desktop/HorrosoundsMazeVR.bank
   Name: HorrosoundsMazeVR
   StudioPath: bank:/HorrosoundsMazeVR
-  lastModified: 638290868754703084
+  lastModified: 638290936919271350
   FileSizes:
   - Name: Desktop
-    Value: 3936960
+    Value: 4001856
   Exists: 1
